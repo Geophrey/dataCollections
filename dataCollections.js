@@ -96,6 +96,8 @@ arrObject.push({
 
 console.log(arrObject);
 
+let total+=obj["age"]
+
 
 
 // let columns = {
