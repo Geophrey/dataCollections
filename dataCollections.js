@@ -65,7 +65,36 @@ console.log(arrObject)
 
 // Part 4
 
+arrObject.pop();
+// let newObject = {
+//     id: "48",
+//     name: "Barry",
+//     occupation: "Runner",
+//     age: "25"
+// }
 
+// arrObject.make ={
+//     id: "48",
+//     name: "Barry",
+//     occupation: "Runner",
+//     age: "25"
+// }
+
+arrObject[1]= { 
+    id: "48", 
+    name: "Barry", 
+    occupation: "Runner", 
+    age: "25" 
+}
+
+arrObject.push({ 
+    id: "7", 
+    name: "Bilbo", 
+    occupation: "None", 
+    age: "111" 
+})
+
+console.log(arrObject);
 
 
 
